@@ -8,6 +8,7 @@ public class SoNguyenTo implements Runnable {
 
     public SoNguyenTo(String name) {
         threadName = name;
+        System.out.println("create: "+threadName);
     }
 
     @Override
@@ -16,7 +17,7 @@ public class SoNguyenTo implements Runnable {
     }
 
     public void start() {
-        System.out.println("start " + myThread);
+        System.out.println("start " + threadName);
         if (myThread == null) {
             myThread = new Thread(this, threadName);
             myThread.start();

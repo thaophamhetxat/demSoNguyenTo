@@ -26,7 +26,7 @@ public class OptimizedPrimeFactorization extends SoNguyenTo {
                 n++;
 
             }
-            Thread.sleep(1000);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
             System.out.println("my thread interrupted");
         }

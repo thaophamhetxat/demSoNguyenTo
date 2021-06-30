@@ -3,6 +3,7 @@ package com.codegym;
 public class LazyPrimeFactorization extends SoNguyenTo {
     public LazyPrimeFactorization(String name) {
         super(name);
+
     }
 
     @Override
@@ -25,7 +26,7 @@ public class LazyPrimeFactorization extends SoNguyenTo {
                 }
                 n++;
             }
-            Thread.sleep(1000);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
             System.out.println("my thread interrupted");
         }
